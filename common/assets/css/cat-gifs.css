@@ -1,0 +1,26 @@
+/* Simple header styling */
+
+h1 {
+  font-size: 3rem;
+}
+
+h1 img {
+  height: 48px;
+}
+
+/* simple flexible layout for the actual gifs themselves */
+
+.output {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.output img {
+  display: block;
+  border: 10px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  max-width: 90%;
+}
